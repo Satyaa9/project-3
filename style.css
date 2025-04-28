@@ -1,0 +1,134 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #f7fdf7; */
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: white;
+  }
+  
+  .brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #5da35d;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .login {
+    color: #5da35d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .join-btn {
+    background-color: #8ab978;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #EFF8ED;
+  }
+  
+  .subtitle {
+    color: #8ab978;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #212437;
+    margin-bottom: 20px;
+    margin-top: 4rem;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    margin-top: 4rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #8ab978;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 4rem;
+  }
+  
+  .primary-btn {
+    background-color: #8ab978;
+    color: white;
+  }
+  
+  .secondary-btn {
+    background-color: white;
+    color: #8ab978;
+  }
+
+  .main-logo{
+    height: 50vh;
+    /* border: 2px solid black; */
+  }
+
+  .main-logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* gap: 1rem; */
+    justify-content: space-evenly;
+  }
+  
+  
