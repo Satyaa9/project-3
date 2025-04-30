@@ -130,5 +130,290 @@
     /* gap: 1rem; */
     justify-content: space-evenly;
   }
+
+  .logo-1:hover {
+    transform: translateY(-7px);
+  }
+
+
+  .container {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: #8BC34A;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #666;
+    max-width: 600px;
+    margin: 10px auto 40px;
+    line-height: 1.5;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card {
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+    padding: 30px;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-7px);
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+  
+  .highlighted {
+    background-color: #A9CF8D;
+    color: #fff;
+  }
+  
+  .highlighted p {
+    color: #e6ffe6;
+  }
+
+  .girl-photo-section{
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+  }
+ .left-section{
+  width:  50%;
+  /* border: 2px solid black; */
+  object-fit: cover;
+ }
+
+ .right-section{
+  width: 50%;
+  margin-left: 15rem;
+  /* border: 2px solid black; */
+ }
+ .main-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11rem;
+  /* text-align: center; */
+ }
+ .heading_of_section{
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+
+ }
+ 
+ .line{
+  width: 94px;
+ }
+ .learn-section{
+    color: #96BB7C;
+    font-size: 1rem;
+ }
+
+ a:link{
+  text-decoration: none;
+ }
+ .arrow{
+  padding-top: 3rem;
+
+ }
+ .experts-section {
+  /* text-align: center; */
+  padding: 40px 20px;
+  background-color: #EFF8ED;
+}
+
+.section-tag {
+  color: #4CAF50;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experts-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  margin-top: 3rem;
+}
+.expert-1{
+    margin-left: 13rem;
+}
+
+.experts-description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 83px;
+
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.course-card {
+  background: #fff;
+  width: 250px;
+  /* height: 500px; */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-thumbnail {
+  position: relative;
+}
+
+.card-thumbnail img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.sale-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.action-icons {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-left: 4rem;
+  /* border-radius: 50%; */
+}
+
+.icon-btn {
+  background: white;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.course-category {
+  font-size: 13px;
+  color: green;
+  font-weight: 600;
+}
+
+.course-rating {
+  background-color: #222;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  float: right;
+}
+
+.course-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.course-summary {
+  font-size: 13px;
+  color: #666;
+}
+
+.course-sales {
+  font-size: 13px;
+  margin: 6px 0;
+}
+
+.course-pricing {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.price-old {
+  /* text-decoration: line-through; */
+  color: #999;
+}
+
+.price-new {
+  color: rgb(243, 144, 14);
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.course-details {
+  font-size: 12px;
+  color: #777;
+  margin: 8px 0;
+}
+
+.cta-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #e6f4ea;
+  border: 1px solid #a4d4a2;
+  border-radius: 20px;
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+}
+ 
+
   
   
