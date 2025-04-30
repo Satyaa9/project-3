@@ -413,7 +413,150 @@
   font-weight: bold;
   cursor: pointer;
 }
- 
 
-  
-  
+.label-category {
+  color: #90c695;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.intro-description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* Pricing Card Container */
+.pricing-cards-container {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 30px 20px;
+  max-width: 300px;
+  margin: 10px;
+  vertical-align: top;
+  position: relative;
+}
+.relative{
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: 13.5rem;
+  z-index: 1;
+  font-size: 12px;
+}
+
+.relative img{
+  font-size: 2rem;
+}
+.per1{
+  color: #8EC2F2;
+}
+
+/* Card Elements */
+.pricing-cards-container h3 {
+  color: #2e3a59;
+  margin: 10px 0;
+}
+
+.pricing-cards-container p {
+  font-size: 14px;
+  color: #777;
+  margin: 10px 0;
+}
+
+.pricing-cards-container h1 {
+  color: #28a745;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.pricing-cards-container button {
+  background: #9ecf89;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: background 0.3s ease;
+}
+
+.pricing-cards-container button:hover {
+  background: #86b97a;
+}
+
+/* Feature list */
+.image-cards {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.image-cards div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.image-cards img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.des-card {
+  font-weight: bold;
+  /* font-size: 2rem; */
+}
+
+/* Optional - highlight new or active card */
+.pricing-cards-container.new {
+  border: 2px solid orange;
+  position: relative;
+}
+
+.pricing-cards-container.new::before {
+  content: 'New';
+  background: orange;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.section-pricing{
+  /* border: 2px solid black; */
+  margin-left: 15rem;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+
+.btn-mid{
+  margin-left: 5rem;
+}
+
+.quality-education{
+  height: 100vh;
+  border: 2px solid black;
+}
+.box-education{
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* text-align: justify; */
+}
+.box-education img{
+  border-radius: 50%;
+}
+
