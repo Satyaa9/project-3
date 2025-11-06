@@ -129,10 +129,11 @@
     text-align: center;
     /* gap: 1rem; */
     justify-content: space-evenly;
+    cursor: pointer;
   }
 
   .logo-1:hover {
-    transform: translateY(-7px);
+    transform: translateY(-5px);
   }
 
 
@@ -178,11 +179,17 @@
     height: 300px;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    cursor: pointer;
   }
   
   .card:hover {
-    transform: translateY(-7px);
+    transform: translateY(-10px);
+    background-color: #A9CF8D;
+    color: white;
   }
+  .card:hover p{
+    color: #FFFFFF;
+  } 
   
   .icon {
     font-size: 40px;
@@ -201,12 +208,13 @@
   }
   
   .highlighted {
-    background-color: #A9CF8D;
-    color: #fff;
+    /* background-color: #A9CF8D; */
+    color: #000;
+    /* color: #fff; */
   }
   
   .highlighted p {
-    color: #e6ffe6;
+    /* color: #e6ffe6; */
   }
 
   .girl-photo-section{
@@ -745,3 +753,23 @@ a:link{
   margin-right: 20px; 
   margin-left: 34rem;
 }
+
+.foot1_2 a:hover{
+  color: chocolate;
+}
+.foot3 a:hover{
+   color: chocolate;
+}
+.foot2 a:hover{
+  color: chocolate;
+}
+.foot4 a:hover{
+  color: chocolate;
+}
+.foot-5 a:hover{
+  color: chocolate;
+}
+
+
+
+
